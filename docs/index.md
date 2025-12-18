@@ -59,8 +59,16 @@ npx -y @modelcontextprotocol/inspector
 <!-- TODO(Marcelo): automatically generate the follow references with a header on each of those files. -->
 1. **[Install](installation.md)** the MCP SDK
 2. **[Learn concepts](concepts.md)** - understand the three primitives and architecture
-3. **[Explore authorization](authorization.md)** - add security to your servers
-4. **[Use low-level APIs](low-level-server.md)** - for advanced customization
+3. **[Architecture diagrams](architecture.md)** - explore the SDK design and architecture
+4. **[Explore authorization](authorization.md)** - add security to your servers
+5. **[Use low-level APIs](low-level-server.md)** - for advanced customization
+
+## Architecture
+
+To understand the design of the MCP Python SDK:
+
+- **[Architecture Overview](architecture.md)** - comprehensive overview of SDK components and design patterns
+- **[Protocol Primitives](diagrams/protocol-primitives.md)** - detailed diagrams of Tools, Resources, and Prompts
 
 ## API Reference
 

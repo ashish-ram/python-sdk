@@ -15,6 +15,8 @@ nav:
   - Installation: installation.md
   - Documentation:
       - Concepts: concepts.md
+      - Architecture: architecture.md
+      - Protocol Primitives: diagrams/protocol-primitives.md
       - Low-Level Server: low-level-server.md
       - Authorization: authorization.md
       - Testing: testing.md
@@ -88,12 +90,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.highlight:
       pygments_lang_class: true
-  - pymdownx.extra:
-      pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.extra
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
